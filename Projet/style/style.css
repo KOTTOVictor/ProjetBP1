@@ -1,0 +1,164 @@
+body,html, *{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    transition: .5s;
+    list-style: none;
+    /* font-family: 'Poppins';
+    text-align: center; 
+    box-sizing: border-box; */
+}
+
+a {
+    /* text-decoration: none; */
+    color: black;
+}
+
+/* header */
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contlogoprinc{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    width: 93%;
+    display: flex;
+    justify-content: center;
+    border: solid red;
+    height: 80px;
+}
+
+nav li{
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+
+
+}
+
+nav p{
+    font-size: 2em;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#inscrire{
+    color: #4450D0;
+}
+
+
+.linav:hover{
+    background-color: black;
+    color: #F9B1B4;
+    height: 60px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+/* .linav:nth-child(2) {
+    background-color: white;
+    align-self: flex-end;
+} */
+    
+
+
+
+
+
+
+/* -----------------Le premier H1 + Recherche--------------- */
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 1.9em;
+    color: #F25C62;
+}
+
+label {
+    font-size: 1.1em;
+    padding-right: 10px;
+}
+
+#divsearch {
+    display: flex;
+    justify-content: center;
+}
+
+#divsearch p {
+    margin-right: 30px;
+    color: #4048CC;
+
+}
+
+#divsearch a {
+    color: #4450D0;
+}
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+    color: #F25C62;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 1.2em;
+
+}
+
+
+#recherche {
+    background-color: #F9B1B4;
+}
+
+#contimgtxt{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.imgdivun {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+}
+
+.boximg{
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+/* .lidivun{
+    max-width: 400px;
+    max-height: 400px;
+} */
+
