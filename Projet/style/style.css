@@ -128,6 +128,9 @@ h2 {
     justify-content: center;
     margin: 30px;
     font-size: 1.2em;
+}
+h3{
+    margin-left: 10%;
 
 }
 
@@ -151,6 +154,7 @@ h2 {
     height: 400px;
     width: 400px;
     justify-content: center;
+    position: relative;
 }
 
 .boximg{
@@ -159,12 +163,56 @@ h2 {
     overflow: hidden;
     display: flex;
     justify-content: center;
+    border-radius: 15%;
 }
 
-/* .lidivun{
-    width: 100%;
-} */
 
 #imageaelargire{
     width: 100%;
 }
+
+.titreg p{
+    font-size: 1.4em;
+}
+
+.titred p{
+    /* font-size: 1.4em; */
+    color: white;
+    /* width: 350px; */
+
+}
+
+#un {
+    top: 290px;
+    right: 25px;
+    text-shadow: 0 -10px 0 #00ecff, 0 -19px 0 black;
+    font-size: 1.22em;
+}
+
+#deux{
+    top: 120px;
+    right: 35px;
+    text-shadow: 0 -10px 0 #00ecff, 0 -19px 0 black;
+    font-size: 1.2em;
+    filter: var();
+}
+
+#trois{
+    top: 255px;
+    right: 30px;
+    text-shadow: 0 -10px 0 #00ecff, 0 -19px 0 black;
+    font-size: 1.5em;
+    filter: grayscale();
+}
+
+.titred{
+    position: absolute;
+    filter: invert(1);
+    text-shadow:0 4px 0 #00ecff, 0 -4px 0 black;
+}
+
+/* .titred p{
+    width: 350px;
+    display: flex;
+    justify-content: flex-end;
+} */
