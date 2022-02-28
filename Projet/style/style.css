@@ -249,7 +249,11 @@ h3{
 
 #plusopt{
     display: flex;
-    justify-content: center
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 #plus{
@@ -258,19 +262,54 @@ h3{
     width: 150px;
 }
 #avenir, #populaires{
-    height: 200px;
-    width: 450px;
+    /* height: 200px;
+    width: 450px; */
+    position: relative;
+
 }
 
 #populaires{
-    background-color: black;
+    /* background-color: black;
+    display: flex;
+    justify-content: center;
+    position: relative; */
 }
 
 #avenir{
-    background-color: #00ecff;
+    /* background-color: #00ecff;
+    display: flex;
+    justify-content: center;
+    position: relative; */
 
 }
 
 #populaires p{
     background-color: white;
+}
+
+.boximgopt{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#boximgoptun{
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+
+#boximgoptdeux{
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    display: flex;
+}
+
+.imgopt{
+    width: 100%;
+}
+
+#titrepop, #titreavn{
+    position: absolute;
 }
