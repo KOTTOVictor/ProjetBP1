@@ -129,10 +129,7 @@ h2 {
     margin: 30px;
     font-size: 1.2em;
 }
-h3{
-    margin-left: 10%;
 
-}
 
 
 #recherche {
@@ -258,9 +255,20 @@ h3{
 
 #plus{
     position: absolute;
-    background-color: white;
     width: 150px;
+    display: flex;
+    justify-content: center;
 }
+
+#cercle{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+
+
+
 #avenir, #populaires{
     /* height: 200px;
     width: 450px; */
@@ -283,9 +291,7 @@ h3{
 
 }
 
-#populaires p{
-    background-color: white;
-}
+
 
 .boximgopt{
     width: 400px;
@@ -312,4 +318,18 @@ h3{
 
 #titrepop, #titreavn{
     position: absolute;
+}
+
+#titrepop{
+    bottom: 50px;
+    left: 20px;
+    color: white;
+    font-size: 2em;
+}
+
+#titreavn{
+    top: 20px;
+    right: 20px;
+    color: rgb(208, 111, 111);
+    font-size: 2em;
 }
