@@ -225,7 +225,7 @@ h2 {
     filter: blur();
     text-shadow: 0 20px 0 #00ecff, 0 -7px 0 black;
     top: 300px;
-    right: 30px;
+    right: 36px;
     font-size: 1.6em;
 }
 
@@ -250,21 +250,34 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 816px;
     position: relative;
+    transition: all .3s ease-out;
+    margin: auto;
 }
+#plusopt:hover{
+    transform: scale(1.1);
 
+}
 #plus{
     position: absolute;
     width: 150px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #cercle{
-    background-color: white;
+    background-color: blue;
     height: 50px;
     width: 50px;
     position: absolute;
+    border-radius: 50%;
+}
+
+#cercle:hover{
+    transform: scale(1.9);
+
 }
 
 
@@ -332,4 +345,20 @@ h2 {
     right: 20px;
     color: rgb(208, 111, 111);
     font-size: 2em;
+}
+
+h4{
+    z-index: 1;
+    font-size: 1.3em;
+
+}
+
+#contcercle{
+    width: 815.99px;
+    height: 300px;
+}
+
+#contcercle:hover{
+    transform: scale(1.9);
+
 }
