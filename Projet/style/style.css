@@ -256,7 +256,7 @@ h2 {
     margin: auto;
 }
 #plusopt:hover{
-    transform: scale(1.1);
+    transform: scale(1.03);
 
 }
 #plus{
@@ -288,6 +288,7 @@ h2 {
     position: relative;
 
 }
+
 
 #populaires{
     /* background-color: black;
@@ -348,17 +349,13 @@ h2 {
 }
 
 h4{
-    z-index: 1;
     font-size: 1.3em;
-
+    display: flex;
+    flex-direction: row;
 }
 
-#contcercle{
-    width: 815.99px;
-    height: 300px;
-}
 
-#contcercle:hover{
-    transform: scale(1.9);
 
+#afc{
+    color: brown;
 }
