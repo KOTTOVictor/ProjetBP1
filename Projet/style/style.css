@@ -359,3 +359,52 @@ h4{
 #afc{
     color: brown;
 }
+
+
+
+
+
+
+#secpop{
+    height: 600px;
+}
+
+.contpop{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    /* display: flex;
+    justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contpop:hover{
+    height: 300px;
+}
+
+#secpop p{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2em;
+}
+
+#natation, #running, #yoga{
+    position: relative;
+}
+
+#txtnat{
+    color: white;
+
+}
+
+#txtrun{
+    color: #556B2F;
+
+}
+
+#yoga{
+    color: black;
+}
