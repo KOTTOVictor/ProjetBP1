@@ -365,8 +365,14 @@ h4{
 
 
 
+
+
+
+
+
+
 #secpop{
-    height: 600px;
+    height: 300px;
 }
 
 .contpop{
@@ -407,4 +413,17 @@ h4{
 
 #yoga{
     color: black;
+}
+
+/* #run{
+    background-image: url(/images/populaire/running.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+} */
+
+#imgrun{
+    object-position: top;
+    object-fit: contain;
 }
