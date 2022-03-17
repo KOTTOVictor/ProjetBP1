@@ -28,17 +28,60 @@ function ChangeSlide(sens) {
 
 setInterval("ChangeSlide(1)", 2000);
 
-let contenantsecpop = document.getElementById("contenantsecpop");
+let secpop = document.getElementById("secpop");
 let populaires = document.getElementById("populaires");
 let rtrun = document.getElementById("rtrun");
 let plusopt = document.getElementById("plusopt");
 
+let avenir = document.getElementById("avenir");
+let row = document.getElementById("row");
+let rtrdeux = document.getElementById("rtrdeux");
+
+let seceven = document.getElementById("seceven");
+
 populaires.addEventListener("click", () => {
-  contenantsecpop.style.left = 0;
+  secpop.style.left = 0;
+  secpop.style.position = "relative";
+
   plusopt.style.display = "none";
 });
 
 rtrun.addEventListener("click", () => {
-  contenantsecpop.style.left = "-100%";
+  secpop.style.left = "-150%";
+
+  setTimeout(() => {
+    secpop.style.position = "absolute";
+    plusopt.style.display = "flex";
+  }, 100);
+});
+
+avenir.addEventListener("click", () => {
+  seceven.style.left = 0;
+  seceven.style.position = "relative";
+  plusopt.style.display = "none";
+  // TimeUnit.MILLISECONDSs.sleep(90);
+
+  seceven.style.display = "flex";
+});
+
+rtrdeux.addEventListener("click", () => {
+  seceven.style.left = "-220%";
+
+  setTimeout(() => {
+    seceven.style.position = "absolute";
+  }, 0.000000001);
+
+  // TimeUnit.seconds.sleep(0.1);
+  // seceven.style.display = "none";
+
   plusopt.style.display = "flex";
+
+  // TimeUnit.MILLISECONDSs.sleep(90);
+  // row.style.display = "none";
+
+  // seceven.style.display = "none";
+  // row.style.position = "absolute";
+  // seceven.style.height = "0";
+
+  // contenantseceven.style.display = "none";
 });

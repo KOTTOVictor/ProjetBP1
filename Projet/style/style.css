@@ -16,10 +16,6 @@ a {
   color: black;
 }
 
-#displaynonebas {
-  display: none;
-}
-
 /* header */
 header {
   display: flex;
@@ -234,7 +230,7 @@ h2 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  position: absolute;
+  height: 400px;
 }
 
 #soussectionplusopt:hover {
@@ -346,13 +342,13 @@ h4 {
 
 #secpop {
   width: 100%;
+  position: absolute;
+  left: -100%;
 }
 
 #contenantsecpop {
   height: 350px;
   overflow: hidden;
-  position: absolute;
-  left: -100%;
   width: 100%;
   /* padding-bottom: 300px; */
 }
@@ -413,17 +409,23 @@ h4 {
 /* <!-- Section les plus évènements à venir --> */
 
 #seceven {
-  /* overflow: hidden; */
+  position: absolute;
+  left: -220%;
+}
+
+#row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
 }
 
 #contenantseceven {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  position: absolute;
-  left: -100%;
-  width: 100%;
+  justify-content: center;
 }
 
 .divimgeven {
@@ -450,11 +452,13 @@ h4 {
   height: 100%;
 }
 
-#retourun {
+#retourun,
+#retourdeux {
   position: relative;
 }
 
-#rtrun {
+#rtrun,
+#rtrdeux {
   background-color: black;
   color: #fff;
   width: 100px;
@@ -466,5 +470,18 @@ h4 {
 
 #divrtr {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+}
+
+/* Footer----------------------------------- */
+
+footer {
+  width: 100%;
+}
+
+#sectionfoot {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
