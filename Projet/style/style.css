@@ -12,7 +12,7 @@ html,
 }
 
 a {
-  /* text-decoration: none; */
+  text-decoration: none;
   color: black;
 }
 
@@ -85,6 +85,10 @@ h1 {
   color: #f25c62;
 }
 
+#recherche {
+  padding-bottom: 10px;
+}
+
 label {
   font-size: 1.1em;
   padding-right: 10px;
@@ -115,6 +119,12 @@ h2 {
   justify-content: center;
   margin: 30px;
   font-size: 1.2em;
+}
+
+h3 {
+  margin-left: 100px;
+  color: #f25c62;
+  text-decoration: underline;
 }
 
 #recherche {
@@ -255,6 +265,29 @@ h2 {
   align-items: center;
 }
 
+#fondUn {
+  height: 55px;
+  width: 276px;
+  bottom: 50px;
+  left: 20px;
+  top: 16px;
+  background-color: #e7d9ee;
+  font-size: 2em;
+  opacity: 0.5;
+  border-radius: 40%;
+}
+
+#fondDeux {
+  height: 55px;
+  width: 335px;
+  bottom: 50px;
+  right: 20px;
+  top: 240px;
+  background-color: #dff7e0;
+  font-size: 2em;
+  opacity: 0.5;
+  border-radius: 40%;
+}
 #cercle {
   background-color: blue;
   height: 50px;
@@ -312,7 +345,9 @@ h2 {
 }
 
 #titrepop,
-#titreavn {
+#titreavn,
+#fondUn,
+#fondDeux {
   position: absolute;
 }
 
@@ -321,13 +356,24 @@ h2 {
   left: 20px;
   color: white;
   font-size: 2em;
+  top: 16px;
+  height: 55px;
+  width: 276px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #titreavn {
-  top: 20px;
+  top: 240px;
   right: 20px;
   color: rgb(208, 111, 111);
   font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  width: 335px;
 }
 
 h4 {
@@ -344,6 +390,7 @@ h4 {
   width: 100%;
   position: absolute;
   left: -100%;
+  background-color: #f25c62;
 }
 
 #contenantsecpop {
