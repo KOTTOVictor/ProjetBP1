@@ -59,7 +59,6 @@ avenir.addEventListener("click", () => {
   seceven.style.left = 0;
   seceven.style.position = "relative";
   plusopt.style.display = "none";
-  // TimeUnit.MILLISECONDSs.sleep(90);
 
   seceven.style.display = "flex";
 });
@@ -70,18 +69,32 @@ rtrdeux.addEventListener("click", () => {
   setTimeout(() => {
     seceven.style.position = "absolute";
   }, 0.000000001);
-
-  // TimeUnit.seconds.sleep(0.1);
-  // seceven.style.display = "none";
-
-  plusopt.style.display = "flex";
-
-  // TimeUnit.MILLISECONDSs.sleep(90);
-  // row.style.display = "none";
-
-  // seceven.style.display = "none";
-  // row.style.position = "absolute";
-  // seceven.style.height = "0";
-
-  // contenantseceven.style.display = "none";
 });
+
+// Lorsque la souris entre ...
+
+let nat = document.getElementById("nat");
+let run = document.getElementById("run");
+let yo = document.getElementById("yo");
+
+$(document).ready(function () {
+  $("div").hover(
+    function () {
+      $(run).css("height", "10px");
+    },
+    function () {
+      $(run).css("height", "100px");
+    }
+  );
+});
+
+// $(document).ready(function () {
+//   $("div").hover(
+//     function () {
+//       $(this).css("background-color", "lightBlue");
+//     },
+//     function () {
+//       $(this).css("background-color", "#fff");
+//     }
+//   );
+// });
