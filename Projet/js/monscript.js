@@ -68,33 +68,64 @@ rtrdeux.addEventListener("click", () => {
 
   setTimeout(() => {
     seceven.style.position = "absolute";
+    plusopt.style.display = "flex";
   }, 0.000000001);
 });
 
 // Lorsque la souris entre ...
 
-let nat = document.getElementById("nat");
-let run = document.getElementById("run");
-let yo = document.getElementById("yo");
+let retourun = document.getElementById("retourun");
+let contenantsecpop = document.getElementById("contenantsecpop");
+let sectionfoot = document.getElementById("sectionfoot");
+let contimgtxt = document.getElementById("contimgtxt");
 
-$(document).ready(function () {
-  $("div").hover(
-    function () {
-      $(run).css("height", "10px");
-    },
-    function () {
-      $(run).css("height", "100px");
-    }
-  );
+retourun.addEventListener("mouseover", () => {
+  contenantsecpop.style.height = "300px";
 });
 
-// $(document).ready(function () {
-//   $("div").hover(
-//     function () {
-//       $(this).css("background-color", "lightBlue");
-//     },
-//     function () {
-//       $(this).css("background-color", "#fff");
-//     }
-//   );
+// retourun.addEventListener("mouseout", () => {
+//   contenantsecpop.style.height = "500px";
+// });
+
+sectionfoot.addEventListener("mouseover", () => {
+  contenantsecpop.style.height = "300px";
+});
+
+contimgtxt.addEventListener("mouseover", () => {
+  contenantsecpop.style.height = "300px";
+});
+
+// contimgtxt.addEventListener("mouseout", () => {
+//   contenantsecpop.style.height = "500px";
+// });
+
+contenantsecpop.addEventListener("mouseout", () => {
+  contenantsecpop.style.height = "300px";
+});
+
+contenantsecpop.addEventListener("mouseover", () => {
+  contenantsecpop.style.height = "500px";
+});
+
+// nat.addEventListener("mouseout", () => {
+//   run.style.height = "100px";
+//   yo.style.height = "100px";
+// });
+
+// run.addEventListener("mouseover", () => {
+//   nat.style.height = "50px";
+//   yo.style.height = "50px";
+// });
+// run.addEventListener("mouseout", () => {
+//   nat.style.height = "100px";
+//   yo.style.height = "100px";
+// });
+
+// yo.addEventListener("mouseover", () => {
+//   run.style.height = "50px";
+//   yo.style.height = "50px";
+// });
+// yo.addEventListener("mouseout", () => {
+//   run.style.height = "100px";
+//   yo.style.height = "100px";
 // });

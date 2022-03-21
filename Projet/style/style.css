@@ -347,7 +347,7 @@ h4 {
 }
 
 #contenantsecpop {
-  height: 480px;
+  height: 300px;
   overflow: hidden;
   width: 100%;
   /* padding-bottom: 300px; */
@@ -455,6 +455,7 @@ h4 {
 #retourun,
 #retourdeux {
   position: relative;
+  background-color: #f25c62;
 }
 
 #rtrun,
@@ -484,4 +485,32 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+footer {
+  background-color: #f9b1b4;
+}
+
+h5 {
+  color: white;
+  font-size: 1.5em;
+}
+
+footer ul li {
+  color: #f25c62;
+  margin: 10px;
+}
+
+footer ul li:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+#sectionfoot {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#contenantsecpop:hover {
+  height: 530px;
 }
