@@ -1,0 +1,47 @@
+body,
+html,
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  transition: 0.4s;
+  list-style: none;
+
+  /* font-family: 'Poppins';
+    text-align: center;
+    box-sizing: border-box; */
+}
+
+body {
+  background-color: #f9b1b4;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#contcontact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+}
+
+h1 {
+  margin: 20px;
+}
+
+.margin {
+  margin: 5px;
+  width: 500px;
+  border-radius: 20px;
+  font-size: 1.5em;
+}
